@@ -9,6 +9,15 @@
 - https://docs.google.com/presentation/d/1xet4rgGdSwxUBS_0mTuT7DhVka5R2MVVEHwdowNc8yg
 - https://docs.google.com/presentation/d/1M4sLCGoo3TvBB-nzaJjHq99pwWYxvBLihb0OC6QzgM8/
 
+### 環境
+- virtualbox
+    - https://www.virtualbox.org/wiki/Downloads
+- kali
+    - https://www.kali.org/get-kali/#kali-platforms
+    - https://www.linuxfordevices.com/tutorials/kali-linux/install-kali-linux-on-virtualbox
+- bittorrent
+    - https://www.bittorrent.com/zh-tw/downloads/complete/
+
 ### L1 筆記
 - 殭屍網路
     - C&C (Command and Control) Server
