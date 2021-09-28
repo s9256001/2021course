@@ -32,6 +32,8 @@
 ## 1-4 三種AI之深度學習
 - 深度學習: 輸入大量資料, 用神經網路去訓練 (電腦自己去抓特徵)
 
+![](https://user-images.githubusercontent.com/11552271/135101113-8b8ff4d1-a519-4550-b60a-2eed915511f2.png)
+
 ## 1-5 AI實作就是打造函數學習機
 - 神經網路 (Neural Network) 有三種模式
 	- DNN: 深度 (Deep) 神經網路
