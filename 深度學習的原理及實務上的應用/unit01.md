@@ -49,12 +49,22 @@
 	- 矩陣: 2 階 tensor
 - 如看照片辨識動物
 	- 輸入可以是 RGB 矩陣
-	- 輸出可以是自定義編號
+	
+	![](https://user-images.githubusercontent.com/11552271/135106315-984b1b0f-109f-454b-b568-a13ac3f5e095.png)
+	
+	- 輸出可以是自定義編號 (但有數字連續性的問題)
+	
+	![](https://user-images.githubusercontent.com/11552271/135106441-9db1709e-e401-4d42-9942-4bd404d9214f.png)
+	
 	- 分類常用 one-hot encoding, 向量每一個元素標示一種動物, 數字越大代表越有可能是此類動物, 可以透過 softmax 轉換為機率
+	
+	![](https://user-images.githubusercontent.com/11552271/135106524-5fab05a1-bbbb-4923-8b27-ac03926698d9.png)
+	![](https://user-images.githubusercontent.com/11552271/135106653-7e2ea3dc-27bd-4155-9798-50cd3fb893c3.png)
 ### 準備訓練資料
 - 訓練資料
 - 測試資料 (避免 over-fitting)
-- (前面三點是核心)
 ### 打造函數學習機
 ### 訓練學習
 ### 預測
+## 1-7【實作】Colab的基本操作
+## 1-8【實作】用Colab畫函數圖形
