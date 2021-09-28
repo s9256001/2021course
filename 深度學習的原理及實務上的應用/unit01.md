@@ -67,4 +67,11 @@
 ### 訓練學習
 ### 預測
 ## 1-7【實作】Colab的基本操作
+- [新增筆記本]
+- [輸入格] 可以打程式碼, shift + enter 執行
+- [+文字]: 打入說明文字, 支援 Markdown、LaTex
+- [工具] > [設定] > [編輯器]: 取消勾選 [自動觸發程式碼完成功能]
+- [工具] > [設定] > [其他]: 好玩的效果
+- ctrl + S: 儲存在 Google drive 裡面的 Colab Notebooks 內
 ## 1-8【實作】用Colab畫函數圖形
+- https://colab.research.google.com/drive/1SMcEC5IAihjkAjqyBZ-lbX-YE9EMRxs4?usp=sharing
