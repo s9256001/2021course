@@ -35,7 +35,26 @@
 ![](https://user-images.githubusercontent.com/11552271/135101113-8b8ff4d1-a519-4550-b60a-2eed915511f2.png)
 
 ## 1-5 AI實作就是打造函數學習機
-- 神經網路 (Neural Network) 有三種模式
-	- DNN: 深度 (Deep) 神經網路
-	- CNN: 卷積 (Convolutional) 神經網路, 適用於圖形辨識
-	- RNN: 遞迴 (Recurrent) 神經網路, 有記憶的神經網路
+### 神經網路 (Neural Network) 的三種模式
+- DNN: 深度 (Deep) 神經網路
+- CNN: 卷積 (Convolutional) 神經網路, 適用於圖形辨識
+- RNN: 遞迴 (Recurrent) 神經網路, 有記憶的神經網路
+	
+## 1-6 AI實作六部曲之問個好問題
+### 先問一個問題
+### 把問題化為函數的形式
+- 輸入、輸出為 tensor
+	- 純量: 0 階 tensor
+	- 向量: 1 階 tensor
+	- 矩陣: 2 階 tensor
+- 如看照片辨識動物
+	- 輸入可以是 RGB 矩陣
+	- 輸出可以是自定義編號
+	- 分類常用 one-hot encoding, 向量每一個元素標示一種動物, 數字越大代表越有可能是此類動物, 可以透過 softmax 轉換為機率
+### 準備訓練資料
+- 訓練資料
+- 測試資料 (避免 over-fitting)
+- (前面三點是核心)
+### 打造函數學習機
+### 訓練學習
+### 預測
