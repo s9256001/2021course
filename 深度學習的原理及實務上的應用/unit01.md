@@ -22,13 +22,18 @@
 
 ![](https://user-images.githubusercontent.com/11552271/134938074-c70f9f8e-8076-4e3d-abe6-be6236660c64.png)
 
-- 人工智慧: 資料 -> 函式 -> 預測
-- 古典 AI: 演算法是由專家決定的
+- 人工智慧: 資料 -> 函數 -> 預測
+- AI 的目標是要學習、打造函數
+- 古典 AI: 函數演算法是由專家決定的
 
 ## 1-3 三種AI之機器學習
 - 傳統機器學習: feature engineering (找出資料特徵、降維 (dimension reduction))
 
 ## 1-4 三種AI之深度學習
-- 深度學習: 輸入大量資料去訓練 (電腦自己去抓特徵)
+- 深度學習: 輸入大量資料, 用神經網路去訓練 (電腦自己去抓特徵)
 
 ## 1-5 AI實作就是打造函數學習機
+- 神經網路 (Neural Network) 有三種模式
+	- DNN: 深度 (Deep) 神經網路
+	- CNN: 卷積 (Convolutional) 神經網路, 適用於圖形辨識
+	- RNN: 遞迴 (Recurrent) 神經網路, 有記憶的神經網路
