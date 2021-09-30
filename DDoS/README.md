@@ -4,10 +4,15 @@
 ### 時間
 - 9月16日(四) PM 19：00 DoS/DDoS掌握與實作-L1
 - 9月23日(四) PM 19：00 DoS/DDoS掌握與實作-L2
+- 9月30日(四) PM 19：00 DoS/DDoS掌握與實作-L3
 
 ### 投影片
 - https://docs.google.com/presentation/d/1xet4rgGdSwxUBS_0mTuT7DhVka5R2MVVEHwdowNc8yg
+	- backup: https://docs.google.com/presentation/d/1c5woCNvslKUzBzNe3n2WiR1oxTH5KBSfyxuBSrC2fJQ/edit?usp=sharing
 - https://docs.google.com/presentation/d/1M4sLCGoo3TvBB-nzaJjHq99pwWYxvBLihb0OC6QzgM8/
+	- backup: https://docs.google.com/presentation/d/1ARhwm_CXS7Qe5AzRCj0qzILw89sCI69R0SyXJPcQ9xs/edit?usp=sharing
+- https://docs.google.com/presentation/d/1LH_Jqlzl6MmkRaTVOGrKGKAo7h1rSQbX_0gVmwvv9-w/edit?usp=sharing
+	- backup: https://docs.google.com/presentation/d/1EeSGETfYdExi7tSxcdfaCXuJclbJM-3qnSzlLj7GxrE/edit?usp=sharing
 
 ### 環境
 - virtualbox
@@ -50,3 +55,31 @@
 - QSnatch
     - 控制 qnap (nas 系統)
     - 以往拔掉 C&C server 為一個解法, 但 QSnatch 使用域名產生演算法, 可以不停的更改域名
+
+### L3 筆記
+- 反射、放大
+    - 反射可以隱藏肉機, 放大可以加大流量
+    - monlist: 查看 NTP 伺服器的連線狀況, 要求最近連線的主機列表
+    - 放大攻擊還是要以頻寬攻擊型來分類
+- HTTP Flood 測試
+    - jmeter
+        - TestPlan > Add > Threads (Users) > Thread Group
+            - Number of Threads (users): 500
+            - Loop Count: 1
+        - Add > Sampler > Http Request
+            - Server Name or IP: 172.17.0.2
+            - Port Number: 80
+            - Path: /
+    - 有些服務器會針對 4xx、5xx 的錯誤狀態碼快取, 要作隨機 request
+- hping3
+    - --rand-source: 提供偽造 ip 的功能
+    - -c 1000: count
+    - -d 80: packet size
+    - -S: sync
+- CC Attack: 透過跳板攻擊
+    - CCATK: 用外網跳板
+        - Host/Ip: niceadmin.serveblog.net
+        - Page: /widgets.html
+        - Port: 80
+    - 講者自架服務在 gcp 上提供測試
+        - Kibana: niceadmin.serveblog.net:
