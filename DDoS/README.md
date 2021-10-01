@@ -44,8 +44,8 @@
     - 防禦只能緩解
     - 清洗、防禦節點, 防火牆
     - js challenge: 有通過測驗才是正常
-        - challenge, captcha 只對人有用
-    - 分析 request 資訊, reffer 為搜尋頁面的參考 (尋找特徵)
+        - challenge、captcha 只對人有用
+    - 分析 request 資訊, referer 為搜尋頁面的參考 (尋找特徵)
         - hot-link protection (防盜鏈)
 
 ### L2 筆記
