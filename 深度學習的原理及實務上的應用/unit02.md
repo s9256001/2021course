@@ -42,3 +42,13 @@
   ![](https://user-images.githubusercontent.com/11552271/135672140-c3d6bdce-079e-4354-a57c-3e3a010287b8.png)
 
 ## 2-6 自學型神經網路
+- 範例: 玩遊戲
+  - 若輸入是前幾幀的畫面, 輸出是最好的動作, 通常很難蒐集訓練集
+
+  ![](https://user-images.githubusercontent.com/11552271/135728413-4598c32f-0118-4c2a-95bf-2ed2be0e098e.png)
+
+  - 強化學習 (reinforcement learning): 輸入可以是動作, 輸出可以是評分 (得分的期望值)
+
+  ![](https://user-images.githubusercontent.com/11552271/135728464-e0f733d3-8524-4e72-a09a-615e7210382a.png)
+
+## 2-7 養成問問題的習慣
