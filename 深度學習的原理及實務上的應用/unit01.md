@@ -75,3 +75,5 @@
 - ctrl + S: 儲存在 Google drive 裡面的 Colab Notebooks 內
 ## 1-8【實作】用Colab畫函數圖形
 - https://colab.research.google.com/drive/1SMcEC5IAihjkAjqyBZ-lbX-YE9EMRxs4?usp=sharing
+## 作業一：程式作業—畫個函數圖形吧!
+- https://colab.research.google.com/drive/1p1sX8EdWFyMSdL2WvHsEhFdUt-L1PKRc?usp=sharing
