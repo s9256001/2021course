@@ -22,19 +22,41 @@
 ## 3-3 DNN的基本架構
 - DNN: Full Connected Neural Network, 1980 年代火紅的 model
 	- 層層之間的神經元是完全連結
-	- 參數: 幾層 hidden layer、每層幾個神經元
+	- 選項: 幾層 hidden layer、每層幾個神經元
 
 	![](https://user-images.githubusercontent.com/11552271/136219900-b025b4ad-de9c-463f-a719-ff92fa6d12b5.png)
 
 - 深度學習: 早先指三層以上的神經網路 (新世紀的潮流), 但現在又泛指所有以神經網路設計的機器學習
-  	- 參數: 決定 hidden layer 的類型
+  	- 選項: 決定 hidden layer 的類型
 		- DNN: 全連結層 (Dense)
 		- CNN: 卷積層 (Conv)
 		- RNN: 遞歸層 (LSTM、GRU)
-- 神經元的運作
-	- 接受不同權重的輸入, 產出輸出
-
-	![](https://user-images.githubusercontent.com/11552271/136221003-8ae1c403-63f2-4838-a48e-17c662445d50.png)
 
 ## 3-4 神經元的運算方式
+- 神經元的運作
+	- 接受多個不同權重 (表示重要性) 的輸入, 產出一個輸出
+	- 權重、偏值需要經過學習得到
+	
+	![](https://user-images.githubusercontent.com/11552271/136230587-9d03abc9-23cf-438e-b066-87fb129598b6.png)
+
+- 總刺激
+	
+	![](https://user-images.githubusercontent.com/11552271/136229935-cca2f519-3593-44c7-bc9c-f0584799e580.png)
+
+- 偏值 (bias)
+
+	![](https://user-images.githubusercontent.com/11552271/136230054-b1391a77-0fbf-4aed-831f-294ee627be92.png)
+	
+- 透過激發函數 (activation function) 轉為非線性
+
+	![](https://user-images.githubusercontent.com/11552271/136230336-ade90ffa-d49b-47f8-94ac-3d94e811c1db.png)
+
+- 激發函數
+	- Gaussian: 早期使用, 現在已很少使用
+	- Sigmoid: 類似 s 型, 接近生物神經元的動作
+	- ReLU: 由兩個線性函數組成, 現在很常用
+	
+	![](https://user-images.githubusercontent.com/11552271/136230187-9223e506-d873-4225-ae40-388b33f36086.png)
+
+## 3-5 練習：假裝自己是一個神經元
 
