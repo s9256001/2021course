@@ -27,13 +27,13 @@
 	![](https://user-images.githubusercontent.com/11552271/136219900-b025b4ad-de9c-463f-a719-ff92fa6d12b5.png)
 
 - 深度學習: 早先指三層以上的神經網路 (新世紀的潮流), 但現在又泛指所有以神經網路設計的機器學習
-  - 參數: 決定 hidden layer 的類型
-    - DNN: 全連結層 (Dense)
-    - CNN: 卷積層 (Conv)
-    - RNN: 遞歸層 (LSTM、GRU)
+  	- 參數: 決定 hidden layer 的類型
+		- DNN: 全連結層 (Dense)
+		- CNN: 卷積層 (Conv)
+		- RNN: 遞歸層 (LSTM、GRU)
 - 神經元的運作: 接受不同權重的輸入, 產出輸出
 
-![](https://user-images.githubusercontent.com/11552271/136221003-8ae1c403-63f2-4838-a48e-17c662445d50.png)
+	![](https://user-images.githubusercontent.com/11552271/136221003-8ae1c403-63f2-4838-a48e-17c662445d50.png)
 
 ## 3-4 神經元的運算方式
 
