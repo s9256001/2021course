@@ -36,7 +36,7 @@
 
 ## 1-5 AI實作就是打造函數學習機
 ### 神經網路 (Neural Network) 的三種模式
-- DNN: 標準型 (全連結) 神經網路
+- DNN: 標準型、全連結 (Dense) 神經網路
 - CNN: 卷積 (Convolutional) 神經網路, 適用於圖形辨識
 - RNN: 遞迴 (Recurrent) 神經網路, 有記憶的神經網路
 	
