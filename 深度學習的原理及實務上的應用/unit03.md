@@ -31,7 +31,8 @@
 		- DNN: 全連結層 (Dense)
 		- CNN: 卷積層 (Conv)
 		- RNN: 遞歸層 (LSTM、GRU)
-- 神經元的運作: 接受不同權重的輸入, 產出輸出
+- 神經元的運作
+	- 接受不同權重的輸入, 產出輸出
 
 	![](https://user-images.githubusercontent.com/11552271/136221003-8ae1c403-63f2-4838-a48e-17c662445d50.png)
 
