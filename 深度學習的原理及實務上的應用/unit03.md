@@ -59,4 +59,24 @@
 	![](https://user-images.githubusercontent.com/11552271/136230187-9223e506-d873-4225-ae40-388b33f36086.png)
 
 ## 3-5 練習：假裝自己是一個神經元
+- 學習的權重、偏值合起來稱為 theta
 
+	![](https://user-images.githubusercontent.com/11552271/136437093-0f349d3e-1e08-44f2-8a0c-a61c57a21a81.png)
+
+- 一開始隨機給初始值, 輸出公式如下
+
+	![](https://user-images.githubusercontent.com/11552271/136437169-2fcfb73d-928c-442a-ae74-6fec87e6f2c3.png)
+
+## 3-6 損失函數是訓練神經網路的標準
+- 神經網路透過作訓練資料學習, 學習法叫 backpropagation
+- 每個 theta 決定一個函數, 目標是要找出最好的 theta*, 使得與目標函數最接近
+- 利用 loss function 計算訓練資料的輸出與正確答案的差異, 然後調整參數
+- 常見的 loss function 如下 (前面的 1/2 是為了微分的計算化簡):
+
+	![](https://user-images.githubusercontent.com/11552271/136439214-7ff021b2-101f-4c52-9b91-182fcc540fef.png)
+
+- 每次的參數調整方式如下:
+
+	![](https://user-images.githubusercontent.com/11552271/136439268-4355c6de-3975-497d-ab56-edcfca86d66a.png)
+
+## 3-7 神經網路的學習方式
