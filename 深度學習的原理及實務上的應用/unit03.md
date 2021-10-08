@@ -80,3 +80,39 @@
 	![](https://user-images.githubusercontent.com/11552271/136439268-4355c6de-3975-497d-ab56-edcfca86d66a.png)
 
 ## 3-7 神經網路的學習方式
+- 先假設只有一個參數
+	- 要最小化 loss function, 要往與斜率相反的方向調整
+	
+	![](https://user-images.githubusercontent.com/11552271/136609204-c3c5c711-0377-4143-a623-6b8bc4c013d8.png)
+	
+	- 為了避免步伐太大, 不容易收斂的問題, 斜率再乘上 learning rate
+	
+	![](https://user-images.githubusercontent.com/11552271/136609360-99e502d3-0e99-4aa7-8594-e4687d93746c.png)
+
+- gradient descent
+	- 多參數的情況, 使用偏微分, 將各參數的斜率以一個梯度 (gradient) 向量表示
+
+	![](https://user-images.githubusercontent.com/11552271/136609668-b1a08c24-b93d-4d83-bbed-5b9c3ed58e3f.png)
+	![](https://user-images.githubusercontent.com/11552271/136609714-df4fac08-a05f-4b6f-80a8-e3e61f8c14f2.png)
+
+	- 深度學習使用 gradient descent 訓練神經網路
+
+## 3-8 實作手寫辨識
+- python 的神經網路套件:
+	- TensorFlow: google
+	- pytorch: facebook
+- MNIST (Modified NIST (美國國家標準暨技術研究院)): 手寫數字辨識的數據集
+	- 輸入是 28*28 的灰階圖, 輸出是數字
+
+	![](https://user-images.githubusercontent.com/11552271/136610893-70b2b149-3884-415a-aaf0-3d1f7d92a1ea.png)
+
+	- 輸出使用 one-hot encoding, 再透過 softmax 轉為機率
+	
+	![](https://user-images.githubusercontent.com/11552271/136611227-4d202dbb-49b9-49e1-96f0-eb5006285ffa.png)
+
+	- DNN 輸入必須是向量, 此處使用 784 (=28*28) 維的向量
+	
+	![](https://user-images.githubusercontent.com/11552271/136611138-c6c2d656-2bdf-42b2-8404-65f1b9af4f86.png)
+
+## 3-9【實作】讀入MNIST訓練資料
+
