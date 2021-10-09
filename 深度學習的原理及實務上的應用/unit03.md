@@ -68,7 +68,7 @@
 	![](https://user-images.githubusercontent.com/11552271/136437169-2fcfb73d-928c-442a-ae74-6fec87e6f2c3.png)
 
 ## 3-6 損失函數是訓練神經網路的標準
-- 神經網路透過作訓練資料學習, 學習法叫 backpropagation
+- 神經網路透過作訓練資料學習, 學習法叫 backpropagation (反向傳播: 評估學習參數)
 - 每個 theta 決定一個函數, 目標是要找出最好的 theta*, 使得與目標函數最接近
 - 利用 loss function 計算訓練資料的輸出與正確答案的差異, 然後調整參數
 - 常見的 loss function mean square error (MSE) 如下 (前面的 1/2 是為了微分的計算化簡):
