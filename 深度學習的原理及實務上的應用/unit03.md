@@ -71,7 +71,7 @@
 - 神經網路透過作訓練資料學習, 學習法叫 backpropagation
 - 每個 theta 決定一個函數, 目標是要找出最好的 theta*, 使得與目標函數最接近
 - 利用 loss function 計算訓練資料的輸出與正確答案的差異, 然後調整參數
-- 常見的 loss function 如下 (前面的 1/2 是為了微分的計算化簡):
+- 常見的 loss function mean square error (MSE) 如下 (前面的 1/2 是為了微分的計算化簡):
 
 	![](https://user-images.githubusercontent.com/11552271/136439214-7ff021b2-101f-4c52-9b91-182fcc540fef.png)
 
