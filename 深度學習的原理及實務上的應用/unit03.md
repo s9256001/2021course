@@ -115,4 +115,12 @@
 	![](https://user-images.githubusercontent.com/11552271/136611138-c6c2d656-2bdf-42b2-8404-65f1b9af4f86.png)
 
 ## 3-9【實作】讀入MNIST訓練資料
+- 由老師的 repo 建立副本:
+	- [Colab] > [GitHub]
+	- 搜尋 "yenlung", 找到存放區 "yenlung/Deep-Learning-Basics", 選取檔案 "01 標準的 Fully Connected (Dense) NN.ipynb"
+	- [檔案] > [在雲端硬碟中儲存副本]
+- [編輯] > [筆記本設定] > 選擇 [GPU]
+- tensorflow 主流寫法是用 keras, keras 是 goolge 出的另一個套件
+- https://colab.research.google.com/drive/16Sa9HlszHRVGXfhS_49mhkhMGtPOBqBg?usp=sharing
 
+## 3-10【實作】用DNN做手寫辨識
