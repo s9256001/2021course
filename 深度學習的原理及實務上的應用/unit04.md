@@ -30,3 +30,9 @@
 	![](https://user-images.githubusercontent.com/11552271/137012250-5e35db16-8281-4b70-b905-b9d64d664ebf.png)
 
 ## 4-4 為什麼卷積會抽取特徵？
+	- 如下面的例子, 越滿足特徵的, 特徵強度越高:
+	
+	![](https://user-images.githubusercontent.com/11552271/137013163-849ade7a-5550-4385-b0b8-d21dc061bf80.png)
+	![](https://user-images.githubusercontent.com/11552271/137013194-6ff90caa-96f7-4629-949a-5215ad0db319.png)
+
+## 4-5 其實神經元的動作和以前一樣
