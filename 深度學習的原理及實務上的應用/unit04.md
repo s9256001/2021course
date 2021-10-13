@@ -36,3 +36,20 @@
 	![](https://user-images.githubusercontent.com/11552271/137013194-6ff90caa-96f7-4629-949a-5215ad0db319.png)
 
 ## 4-5 其實神經元的動作和以前一樣
+- 可以將圖上的每一個點視為輸入層神經元, 每一個計算出的特徵強度也視為一個神經元, 則卷積層可以視為不完全連結的神經網路, 只是每組連結共享同一組權重 (filter)
+	
+	![](https://user-images.githubusercontent.com/11552271/137182714-f5902af7-99da-45c9-b034-9e66de98a551.png)
+	![](https://user-images.githubusercontent.com/11552271/137182745-8054d0ad-3506-4aa6-bb4d-937f2994d284.png)
+
+## 4-6 我們希望記分板和原圖一樣大
+- 前述的方式, 邊緣的線段會掃描不到
+	
+	![](https://user-images.githubusercontent.com/11552271/137183807-81ea1754-2f50-4edd-a668-b05e8e511fef.png)
+	
+- 我們喜歡把外圈加 0, 如此可以掃到邊緣, 但輸出的特徵強度會跟原圖一樣大
+
+	![](https://user-images.githubusercontent.com/11552271/137183836-4795b21f-9e09-4775-bbaf-cc666e57406e.png)
+	
+- 衍生出的問題是, 今天如果有 10 個 filter, 數據量會變 10 倍
+
+## 4-7 CNN的兩種隱藏層之池化層
