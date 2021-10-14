@@ -53,3 +53,18 @@
 - 衍生出的問題是, 今天如果有 10 個 filter, 數據量會變 10 倍
 
 ## 4-7 CNN的兩種隱藏層之池化層
+- 池化層 (pooling layer): 決定區域的特徵強度
+- 池化層的選項:
+	- 池化區域大小 (如 2x2)
+	- 池化方式 (如取極大值 (max-pooling layer))
+	
+	![](https://user-images.githubusercontent.com/11552271/137366204-c1faa108-ed22-4c6b-a65a-3e1f83ca8a9f.png)
+
+## 4-8 常見的CNN設計架構
+- 設計架構
+	- 基本圖形特徵 > 組合基本特徵 > 複合特徵 > ... > 拉平一堆矩陣到 Dense
+	- Conv filter 數量通常會越來越多 (組合數比較多) (如 16 > 32 > 64)
+	
+	![](https://user-images.githubusercontent.com/11552271/137367175-0b2407be-9621-4924-b557-95bd21041727.png)
+
+## 4-9【實作】用CNN做手寫辨識
