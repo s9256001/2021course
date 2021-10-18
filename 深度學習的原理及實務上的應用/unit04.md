@@ -68,3 +68,8 @@
 	![](https://user-images.githubusercontent.com/11552271/137367175-0b2407be-9621-4924-b557-95bd21041727.png)
 
 ## 4-9【實作】用CNN做手寫辨識
+- 由老師的 repo 建立副本:
+	- [Colab] > [GitHub]
+	- 搜尋 "yenlung", 找到存放區 "yenlung/Deep-Learning-Basics", 選取檔案 "02 CNN.ipynb"
+	- [檔案] > [在雲端硬碟中儲存副本]
+- [編輯] > [筆記本設定] > 選擇 [GPU]
