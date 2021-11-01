@@ -18,3 +18,19 @@
     ![](https://user-images.githubusercontent.com/11552271/137936012-a9a0f62a-2d9a-45f4-bac9-09a4bd6b8c21.png)
 
 ## 5-3 RNN最重要的應用是對話機器人
+- 應用: 對話機器人
+
+    ![](https://user-images.githubusercontent.com/11552271/139704512-b9df8e2f-732b-4ab5-974e-f8d3fd6f94f1.png)
+    ![](https://user-images.githubusercontent.com/11552271/139704556-3947e519-0ac5-4cae-86db-570982470c2f.png)
+    
+    ![](https://user-images.githubusercontent.com/11552271/139704598-80a94a5e-8856-44b0-a1e3-8f6072558941.png)
+    
+## 5-4 RNN有趣的應用
+- RNN 有趣的應用:
+    - 自動翻譯
+    - video captioning (為影片產生描述文字)
+    - 生成文章
+        - Andrej Karpathy 生出代數幾何介紹 "Stacks" 的文字
+            - http://karpathy.github.io/2015/05/21/rnn-effectiveness/
+        - 以莎士比亞的文體創作
+## 5-5 RNN的訓練和罩門
