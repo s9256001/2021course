@@ -33,4 +33,23 @@
         - Andrej Karpathy 生出代數幾何介紹 "Stacks" 的文字
             - http://karpathy.github.io/2015/05/21/rnn-effectiveness/
         - 以莎士比亞的文體創作
+
 ## 5-5 RNN的訓練和罩門
+- RNN 訓練的兩個問題:
+	- 很難做平行處理
+	- 通常是很深的神經網路, 而很難訓練
+- RNN 訓練稱為 backpropagation through time (BBPT)
+    
+    ![](https://user-images.githubusercontent.com/11552271/139905979-6fdc6870-7606-48cd-bc68-7960e2cd98dd.png)
+    
+    ![](https://user-images.githubusercontent.com/11552271/139906028-6a5fda4a-1529-4c89-856a-f6da0d0f19e2.png)
+    
+	- gradient 乘起來的過程中, 會有梯度消失、梯度爆炸的問題
+
+## 5-6 RNN兩大救星：LSTM、GRU 不公開
+- 解決梯度消失、梯度爆炸的問題:
+	- LSTM (Long Short Term Memory)
+	- GRU (Gated Recurrent Unit): 可以想為 LSTM 的稍為簡化版本
+- 原始的 RNN 稱為 Vanilla RNN, 在 TensorFlow 中是 SimpleRNN
+
+## 5-7 全壘打預測的應用
