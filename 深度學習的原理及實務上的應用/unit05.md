@@ -53,3 +53,21 @@
 - 原始的 RNN 稱為 Vanilla RNN, 在 TensorFlow 中是 SimpleRNN
 
 ## 5-7 全壘打預測的應用
+- 題目: 某 MLB 選手新球季可以打幾支全壘打
+
+	![](https://user-images.githubusercontent.com/11552271/140771110-a0724180-fbad-488c-bbb0-2417a4c181b4.png)
+	
+	- 輸出採用 one-hot encoding
+	- 一層 LSTM 隱藏層
+	- 輸出層做 softmax
+	- 使用 10 年資料訓練
+
+## 5-8【實作】讀入IMDB電影資料庫
+- 由老師的 repo 建立副本:
+	- [Colab] > [GitHub]
+	- 搜尋 "yenlung", 找到存放區 "yenlung/Deep-Learning-Basics", 選取檔案 "03 RNN 做情意分析.ipynb"
+	- [檔案] > [在雲端硬碟中儲存副本]
+- [編輯] > [筆記本設定] > 選擇 [GPU]
+- https://colab.research.google.com/drive/1zt_WHM1yHvjf1f1Vdel2BDXoFearYgUG?usp=sharing
+
+## 5-9【實作】用RNN做情意分析
