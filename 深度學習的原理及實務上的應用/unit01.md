@@ -66,6 +66,7 @@
 ### 打造函數學習機
 ### 訓練學習
 ### 預測
+
 ## 1-7【實作】Colab的基本操作
 - [新增筆記本]
 - [輸入格] 可以打程式碼, shift + enter 執行
@@ -73,7 +74,9 @@
 - [工具] > [設定] > [編輯器]: 取消勾選 [自動觸發程式碼完成功能]
 - [工具] > [設定] > [其他]: 好玩的效果
 - ctrl + S: 儲存在 Google drive 裡面的 Colab Notebooks 內
+
 ## 1-8【實作】用Colab畫函數圖形
 - https://colab.research.google.com/drive/1SMcEC5IAihjkAjqyBZ-lbX-YE9EMRxs4?usp=sharing
+
 ## 作業一：程式作業—畫個函數圖形吧!
 - https://colab.research.google.com/drive/1p1sX8EdWFyMSdL2WvHsEhFdUt-L1PKRc?usp=sharing
