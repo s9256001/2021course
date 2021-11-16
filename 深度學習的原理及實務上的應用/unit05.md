@@ -71,3 +71,6 @@
 - https://colab.research.google.com/drive/1bGDp_R680vyiKz07elNZKFsbMiwANh8Q?usp=sharing
 
 ## 5-9【實作】用RNN做情意分析
+
+## 作業五：程式作業—用 RNN做情意分析
+- https://colab.research.google.com/drive/1b2ahlEZx14KzvAjH9vwgMjGZItSbt-ie?usp=sharing
