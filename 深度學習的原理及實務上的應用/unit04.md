@@ -74,3 +74,6 @@
 	- [檔案] > [在雲端硬碟中儲存副本]
 - [編輯] > [筆記本設定] > 選擇 [GPU]
 - https://colab.research.google.com/drive/1zt_WHM1yHvjf1f1Vdel2BDXoFearYgUG?usp=sharing
+
+## 作業四：程式作業—用 CNN做手寫辨識
+- https://colab.research.google.com/drive/1v8sFUKM1UWuARh6x80hu5OqrGIj_h1CJ?usp=sharing
