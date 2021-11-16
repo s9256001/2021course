@@ -124,3 +124,6 @@
 - https://colab.research.google.com/drive/16Sa9HlszHRVGXfhS_49mhkhMGtPOBqBg?usp=sharing
 
 ## 3-10【實作】用DNN做手寫辨識
+
+## 作業三： 程式作業—全連結神經網路 DNN
+- https://colab.research.google.com/drive/1DqXoEJKFWK8ECttkSk-iqA1jGdniSeVw?usp=sharing
