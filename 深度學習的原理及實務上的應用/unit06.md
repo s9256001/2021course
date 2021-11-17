@@ -32,3 +32,39 @@
     ![](https://user-images.githubusercontent.com/11552271/142021813-b586af15-c13b-44d4-9360-aec2f8c5057c.png)
 
 ## 6-5 很會創作的生成對抗網路GAN
+- adversarial training: GAN (Generative Adversarial Networks)
+
+    ![](https://user-images.githubusercontent.com/11552271/142250418-d85ff34e-d7da-4a3a-b11b-904c9ccb82a6.png)
+    
+    ![](https://user-images.githubusercontent.com/11552271/142250655-08c35dcb-afa2-493f-930d-89ca928f003f.png)
+
+- iGAN
+    - 朱俊彦等人 (ECCV 2016)
+    - https://arxiv.org/abs/1609.03552
+    - 人人都是大畫家!
+    - https://youtu.be/9c4z6YsBGQ0
+
+    ![](https://user-images.githubusercontent.com/11552271/142253494-1b4c42c7-1f0a-429b-b53b-cb1260b9d6be.png)
+
+- Progressive GAN
+    - Karras 等 NVIDIA 團隊 (ICLR 2018)
+    - https://arxiv.org/abs/1710.10196
+    - 生成 1024x1024 明星照片
+    
+    ![](https://user-images.githubusercontent.com/11552271/142253836-4ea2ea92-d788-4273-8ab6-6b2c6aa537d9.png)
+
+- Pix2Pix
+    - Isola, 朱俊彦等人 (CVPR 2017)
+    - https://arxiv.org/abs/1611.07004
+    - 把衛星圖變地圖
+    
+    ![](https://user-images.githubusercontent.com/11552271/142254106-5bec3a47-094d-4300-ab77-7c389b2a775b.png)
+    
+    - 隨手畫畫變街景
+    
+    ![](https://user-images.githubusercontent.com/11552271/142254337-07c7a6a9-66e9-4fa2-aed2-83d66f38f6af.png)
+
+    - Pix2pix 線上版
+    - https://affinelayer.com/pixsrv/
+    
+    ![](https://user-images.githubusercontent.com/11552271/142254686-fbcfd8af-862e-4a53-a79d-9fca70de9b1c.png)
