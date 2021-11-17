@@ -33,11 +33,13 @@
 
 ## 6-5 很會創作的生成對抗網路GAN
 - adversarial training: GAN (Generative Adversarial Networks)
+    - 固定生成器, 訓練鑑別器; 固定鑑別器, 訓練生成器; 如此反覆交叉訓練
 
     ![](https://user-images.githubusercontent.com/11552271/142250418-d85ff34e-d7da-4a3a-b11b-904c9ccb82a6.png)
     
     ![](https://user-images.githubusercontent.com/11552271/142250655-08c35dcb-afa2-493f-930d-89ca928f003f.png)
 
+## 6-6 GAN有趣的應用
 - iGAN
     - 朱俊彦等人 (ECCV 2016)
     - https://arxiv.org/abs/1609.03552
@@ -68,8 +70,8 @@
     - https://affinelayer.com/pixsrv/
     
     ![](https://user-images.githubusercontent.com/11552271/142254686-fbcfd8af-862e-4a53-a79d-9fca70de9b1c.png)
-
-## 6-6 GAN有趣的應用
+    
+## 6-7 CycleGAN令人驚呆的魔法
 - CycleGAN
     - 朱俊彦等人 (ICCV 2017)
     - https://arxiv.org/abs/1703.10593
@@ -87,5 +89,3 @@
     - https://youtu.be/Fea4kZq0oFQ
     
     ![](https://user-images.githubusercontent.com/11552271/142256325-e5a908bc-119b-4743-b580-9626e20e8bc3.png)
-
-## 6-7 CycleGAN令人驚呆的魔法
