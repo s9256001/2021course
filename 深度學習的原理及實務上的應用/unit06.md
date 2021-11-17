@@ -88,4 +88,4 @@
     
     ![](https://user-images.githubusercontent.com/11552271/142256325-e5a908bc-119b-4743-b580-9626e20e8bc3.png)
 
-## 6-7 GAN有趣的應用
+## 6-7 CycleGAN令人驚呆的魔法
