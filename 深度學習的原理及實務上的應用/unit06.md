@@ -68,3 +68,25 @@
     - https://affinelayer.com/pixsrv/
     
     ![](https://user-images.githubusercontent.com/11552271/142254686-fbcfd8af-862e-4a53-a79d-9fca70de9b1c.png)
+
+## 6-6 GAN有趣的應用
+- CycleGAN
+    - 朱俊彦等人 (ICCV 2017)
+    - https://arxiv.org/abs/1703.10593
+    - 如男變女的照片、女變男的照片
+    - 為了避免生成器總是產出同樣的照片, 透過走一個 cycle, 而要與原圖相似度很高的檢驗 (如此可以比較簡單的收集訓練集)
+    
+    ![](https://user-images.githubusercontent.com/11552271/142256204-1cff1b65-d0fb-4e15-accb-b245dddfd296.png)
+    
+    - 馬變斑馬
+    - https://youtu.be/9reHvktowLY
+
+    ![](https://user-images.githubusercontent.com/11552271/142256288-ac8afaf6-db20-44c3-adfd-5bf1c870b9f0.png)
+
+
+    - 館⻑變陳沂 (魏澤人老師)
+    - https://youtu.be/Fea4kZq0oFQ
+    
+    ![](https://user-images.githubusercontent.com/11552271/142256325-e5a908bc-119b-4743-b580-9626e20e8bc3.png)
+
+## 6-7 GAN有趣的應用
