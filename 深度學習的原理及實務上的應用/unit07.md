@@ -43,7 +43,23 @@
     
     ![](https://user-images.githubusercontent.com/11552271/142762363-e48455f8-04d8-4f86-ab70-065b2dc9354f.png)
 
-
 ## 7-5 應用範例-自動交易系統
+- 卷積深度 Q-學習之 ETF 自動交易系統
+- 基本設定
+    - 選一支 ETF
+    - 開始 20000 美金
+    - 經過一年全賣手上 ETF
+    - 使用 Deep Q-Learning
+- 狀態: 每天資料含 6 個數值為開盤價、收盤價、最高、最低、成交價...
+    
+    ![](https://user-images.githubusercontent.com/11552271/142896663-eb06338a-a8e0-48a1-8097-41e8dbb696b0.png)
 
+- 交易結果
+    - CDQN: Deep Q-Learning
+    - 無腦法: 買入持有策略
+    
+    ![圖片](https://user-images.githubusercontent.com/11552271/142896771-34d1cf16-e918-4a8c-b9a2-82ad9e597302.png)
 
+- 實務上要多做幾年、還要可以挑出適用此學習得來的交易方式的股票
+
+## 7-6-1 進擊的自然語言處理-1
