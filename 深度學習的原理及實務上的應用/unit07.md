@@ -63,3 +63,51 @@
 - 實務上要多做幾年、還要可以挑出適用此學習得來的交易方式的股票
 
 ## 7-6-1 進擊的自然語言處理-1
+- word embedding: 將字 (詞) 產出特徵向量的函數
+    
+    ![](https://user-images.githubusercontent.com/11552271/142899236-909b605b-c26e-437a-bfe0-d3e9e725384a.png)
+
+- 輸入也要編碼: 可以用字出現頻率排序, 越常出現給的編號越小
+
+    ![](https://user-images.githubusercontent.com/11552271/142899588-cb89121b-d9e4-4571-834b-ca129c9c70a9.png)
+
+    - 要破除連續的關聯, 採用 one-hot encoding
+
+    ![](https://user-images.githubusercontent.com/11552271/142899643-e4a2d0f3-c01a-40e7-8ea0-747f1d26385c.png)
+
+- Word2Vec: 一種 word embedding, 相似的字會在一起
+
+    ![](https://user-images.githubusercontent.com/11552271/142899864-281e21a1-ad44-4367-89e5-601394ab1726.png)
+    ![](https://user-images.githubusercontent.com/11552271/142899942-a07cfda9-550d-4adb-b7de-d00268f54ba1.png)
+
+    - 設計一個任務, 這個任務需要電腦懂字的意思才能做到
+    - CBOW model: 用周圍的字預測中間的字
+    
+    ![](https://user-images.githubusercontent.com/11552271/142900236-aa5b425c-acbc-478b-bda8-665112654df1.png)
+
+    - Skip-Gram model: 用中間的字預測周圍的字
+    
+    ![](https://user-images.githubusercontent.com/11552271/142900280-2b207953-9201-4565-9d80-43797646f1bd.png)
+    
+    - 由中間隱藏層的神經元表示特徵向量
+    
+    ![](https://user-images.githubusercontent.com/11552271/142900495-4949804f-5246-4c10-9db5-d04c8fa6f7ff.png)
+
+- 傳統 word embedding 的缺點: 每個字 (詞) 有固定的特徵向量, 但一個字 (詞) 可能再不同的地方有不一樣的意思
+- ELMo: 用意涵來編碼
+    
+    ![](https://user-images.githubusercontent.com/11552271/142900780-dace7158-3a69-4f4a-b105-4753f3b263fa.png)
+    
+    - RNN 的 hidden state 可以做 embedding
+    
+    ![](https://user-images.githubusercontent.com/11552271/142900949-af741706-2874-4f5a-8a73-079fce4e13eb.png)
+    
+    - 可以做兩層, 第二層表示更深層的意涵
+    
+    ![](https://user-images.githubusercontent.com/11552271/142901050-f40d3692-2373-44b9-9f3c-3c95ac77df89.png)
+    
+    - word embedding 為三個值加權計算
+    
+    ![](https://user-images.githubusercontent.com/11552271/142901229-61a73f48-1f8e-4cf7-935a-4b71aa2539f9.png)
+
+## 7-6-2 進擊的自然語言處理-2
