@@ -111,3 +111,16 @@
         ![](https://user-images.githubusercontent.com/11552271/142901229-61a73f48-1f8e-4cf7-935a-4b71aa2539f9.png)
 
 ## 7-6-2 進擊的自然語言處理-2
+- Attention Model: 生出關注的每個字的比重可能不一樣
+    
+    ![](https://user-images.githubusercontent.com/11552271/143279717-4c9b773e-9339-46ff-946f-8a82b088b7c1.png)
+
+- Transformer: 可看為第四種神經網路; 運用 self-attention, 避開 RNN 要一個字一個字輸入的缺點
+- BERT: 使用 transformer 的 encoder, 其中一種訓練方式是克漏字
+
+    ![](https://user-images.githubusercontent.com/11552271/143279794-aef10099-5508-416b-a0ef-b70fdff22f7c.png)
+
+- GPT: 唬爛王
+	- https://talktotransformer.com/
+
+## 7-7 學習怎麼學習的meta learning
