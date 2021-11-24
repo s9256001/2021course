@@ -121,6 +121,27 @@
     ![](https://user-images.githubusercontent.com/11552271/143279794-aef10099-5508-416b-a0ef-b70fdff22f7c.png)
 
 - GPT: 唬爛王
-	- https://talktotransformer.com/
+    - https://talktotransformer.com/
 
 ## 7-7 學習怎麼學習的meta learning
+- meta learning: 用少資料, 學習如何學習
+    
+    ![](https://user-images.githubusercontent.com/11552271/143282261-3f003cb2-ab70-4e1c-a039-797775e0dd75.png)
+
+- 範例: 人臉辨識
+    
+    ![](https://user-images.githubusercontent.com/11552271/143282482-39075f42-a719-41fe-a47a-bb362c3479ab.png)
+    ![](https://user-images.githubusercontent.com/11552271/143282508-d9a0341a-0883-4d13-a6b0-6e7c623ead0e.png)
+
+- 想法: 抽取特徵向量
+
+    ![](https://user-images.githubusercontent.com/11552271/143282796-5a4b15ba-8b56-4aa0-af49-ff67618526a9.png)
+    ![](https://user-images.githubusercontent.com/11552271/143282858-c2ccb5b9-11f5-4529-849b-dcaba4d2d491.png)
+
+- 訓練方式
+
+    ![](https://user-images.githubusercontent.com/11552271/143282978-ca525316-f85c-496a-8251-df49990360e9.png)
+    
+    ![](https://user-images.githubusercontent.com/11552271/143283009-12f9d5b7-953c-475b-b296-0af5102249ea.png)
+    
+    ![](https://user-images.githubusercontent.com/11552271/143283038-a5aa2ff6-da24-4621-b128-9a207347f4a2.png)
