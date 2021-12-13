@@ -145,3 +145,10 @@
     ![](https://user-images.githubusercontent.com/11552271/143283009-12f9d5b7-953c-475b-b296-0af5102249ea.png)
     
     ![](https://user-images.githubusercontent.com/11552271/143283038-a5aa2ff6-da24-4621-b128-9a207347f4a2.png)
+
+## 作業七：發想作業—強化學習和AI近期發展
+1. AI應用：德州撲克AI
+2. 輸入：目前的手牌、公牌
+3. 解決問題的函數：依目前的手牌、公牌, 判斷效益最大的動作
+4. 輸出：效益最大的動作
+5. 資料來源與數量：採用 Deep Q-Learning, 使用人工規則初始 Q 值, 後續讓電腦自己生訓練資料自己學
