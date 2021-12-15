@@ -51,11 +51,7 @@
 - for
     ```py
     for i in range(5):
-      print('i=',i)
+      print('i=',i,end='') // end='' 表示不換行
     // 輸出:
-    // i= 0
-    // i= 1
-    // i= 2
-    // i= 3
-    // i= 4
+    // i= 0i= 1i= 2i= 3i= 4
     ```
