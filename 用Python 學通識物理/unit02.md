@@ -21,8 +21,29 @@
     a = 1
     b = '23'
     print(str(a) + b)
-    // 輸出:
-    // 123
+    # 輸出:
+    # 123
+    ```
+
+## 基本輸出入
+- 輸入
+    ```py
+    a=input('input a=')
+    ```
+- 輸出
+    ```py
+    A=16
+    C=1.2955
+    print(A,C)
+    print('A=%7d' % A)
+    print('C=%6.2f' % C)
+    print('LALA',end='') # end='' 表示不換行
+    print('LULU')
+    # 輸出:
+    # 16 1.2955
+    # A=     16
+    # C=  1.30
+    # LALALULU
     ```
 
 ## Python 工具介紹：數列與range 函數
